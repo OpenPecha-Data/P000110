@@ -1,11 +1,13 @@
-ebook_metadata:
+id: P000110
+initial_creation_type: ebook
+source_metadata:
   title: ༄༅། །བློ་སྦྱོང་དོན་བདུན་མའི་ལྗགས་ཁྲིད་རྒྱལ་སྲས་ཆོས་ཀྱི་མྱུ་གུའི་ཞལ་ལུང༌།།
   authors: []
-  sku: LEK-PHI-129
   layers:
   - book_title
   - chapter_title
   - yigchung
+  id: LEK-PHI-129
 web_metadata:
   title:
     en: Words of Gyalse Chokyi Nyugu:Teaching on Seven Points of Mind Training (Transcription
