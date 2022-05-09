@@ -46,7 +46,7 @@ jobs:
                   tsv_writer.writerow(cols_name)
                   for token in tokens:
                       tsv_writer.writerow(
-                          [token.text_cleaned, token.lemma, token.pos, token.text]
+                          [token.text_cleaned, token.lemma, token.pos]
                       )
 
           # tokenize with botok as save in Pyrrha format
