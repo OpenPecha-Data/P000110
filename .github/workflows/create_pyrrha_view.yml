@@ -9,6 +9,7 @@ on:
 
 jobs:
   create:
+    if: ( github.event.commits[0].message == 'tokenize' )
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -63,9 +64,9 @@ jobs:
 
       - name: Clean up
         run: |
-          ls
           rm -rf *.opf
           rm -rf readme.md
+          rm -rf .github
           
         
       - uses: stefanzweifel/git-auto-commit-action@v4
