@@ -27,6 +27,7 @@ jobs:
         run: git checkout --orphan Pyrrha
         
       - name: Create Pyrrha View
+        shell: python
         run: |
           import csv
           from pathlib import Path
