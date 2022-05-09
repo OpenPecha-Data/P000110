@@ -9,7 +9,7 @@ on:
 
 jobs:
   create:
-    if: ( github.event.commits[0].message == 'tokenize' )
+    if: ( github.event.commits[0].message == 'create pyrrha view' )
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
