@@ -88,6 +88,6 @@ jobs:
           
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: created pyrrha view
-          branch: Pyrrha
+          commit_message: created botok view
+          branch: botok
           create_branch: true
