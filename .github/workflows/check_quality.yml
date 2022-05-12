@@ -26,8 +26,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install openpecha
           
-      - name: Count Non-Words
-        run: openpecha count-non-words $(pwd) --save
+      - name: Perform Quality Check
+        run: openpecha qc $(pwd) --save
         
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
